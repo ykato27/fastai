@@ -39,9 +39,11 @@ RUN $PYENV_ROOT/plugins/python-build/install.sh
 RUN /usr/local/bin/python-build -v $PYTHON_VERSION $PYTHON_ROOT
 RUN rm -rf $PYENV_ROOT
 
-RUN pip install --upgrade pip
+RUN pip install --upgrade pip \
+	fastai
 
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 WORKDIR home/work
+
