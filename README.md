@@ -88,6 +88,10 @@ fastai のexample リポジトリです。
 └── work
 ```
 
+## Display notebooks
+
+- [View Jupyter notebooks in nbviewer](https://nbviewer.jupyter.org/github/ykato27/fastai/tree/main/notebooks/)
+
 ## 環境構築
 
 - Google Colab
